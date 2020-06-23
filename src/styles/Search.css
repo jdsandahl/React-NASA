@@ -32,3 +32,7 @@
     color: #ffffff;
     font-size: 20px;
 }
+
+.search-btn:active {
+    background-image: linear-gradient(to bottom right, #d3cfd0, #5f5e5e);   
+}
