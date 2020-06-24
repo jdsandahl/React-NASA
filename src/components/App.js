@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Search setSearchResults={setSearchResults} />
       <div>
-        {searchResults && searchResults.length > 0 && ( searchResults.map((element) => <SearchResults image={element} /> ))}
+        {searchResults && searchResults.length > 0 && ( searchResults.map((element) => <SearchResults key={element} image={element} /> ))}
       </div>
     </div>
   );
