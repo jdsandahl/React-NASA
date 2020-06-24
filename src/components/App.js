@@ -4,12 +4,14 @@ import Search from "./Search";
 import SearchResults from "./SearchResults";
 
 function App() {
-  const [searchResults, setSearchResults] = useState(null);
-  
+  const [searchResults, setSearchResults] = useState([]);
+
   return (
     <div className="App">
       <Search setSearchResults={setSearchResults} />
-      <SearchResults />
+      <div>
+        {searchResults && searchResults.length > 0 && ( searchResults.map((element) => <SearchResults image={element} /> ))}
+      </div>
     </div>
   );
 }

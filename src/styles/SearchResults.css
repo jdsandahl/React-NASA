@@ -1,13 +1,14 @@
 .SearchResults {
-    display: grid;
-    grid-column: 1fr 1fr 1fr 1fr;
+    display: inline-grid;
+    grid-column: repeat(4, 25%);
     grid-row: auto;
     margin: 25px;
 }
 
 .image-card {
     border-radius: 35px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
     padding: 25px;  
 }
