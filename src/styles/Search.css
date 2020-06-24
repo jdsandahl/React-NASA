@@ -5,10 +5,10 @@
   justify-content: center;
 }
 
-.nasa-logo {
+.nasa-logo { 
   margin: auto;
   width: 500px;
-  height: 300px;
+  max-height: 300px;
 }
 
 .search-form {
@@ -35,4 +35,10 @@
 
 .search-btn:active {
     background-image: linear-gradient(to bottom right, #d3cfd0, #5f5e5e);   
+}
+
+@media only screen and (max-width: 500px){
+    .nasa-logo { 
+        width: 300px;
+      }
 }
