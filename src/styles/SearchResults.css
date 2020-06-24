@@ -1,0 +1,13 @@
+.SearchResults {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-row: auto;
+    margin: 25px;
+}
+
+.image-card {
+    border-radius: 35px;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 25px;  
+}
