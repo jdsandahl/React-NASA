@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-NASA/static/css/main.ead70764.chunk.css",
+    "main.js": "/react-NASA/static/js/main.fca37885.chunk.js",
+    "main.js.map": "/react-NASA/static/js/main.fca37885.chunk.js.map",
+    "runtime-main.js": "/react-NASA/static/js/runtime-main.b6c89495.js",
+    "runtime-main.js.map": "/react-NASA/static/js/runtime-main.b6c89495.js.map",
+    "static/js/2.ea3fad5b.chunk.js": "/react-NASA/static/js/2.ea3fad5b.chunk.js",
+    "static/js/2.ea3fad5b.chunk.js.map": "/react-NASA/static/js/2.ea3fad5b.chunk.js.map",
+    "index.html": "/react-NASA/index.html",
+    "precache-manifest.44cd5a3a91ea2e3883a9f3fd97f0cf8f.js": "/react-NASA/precache-manifest.44cd5a3a91ea2e3883a9f3fd97f0cf8f.js",
+    "service-worker.js": "/react-NASA/service-worker.js",
+    "static/css/main.ead70764.chunk.css.map": "/react-NASA/static/css/main.ead70764.chunk.css.map",
+    "static/js/2.ea3fad5b.chunk.js.LICENSE.txt": "/react-NASA/static/js/2.ea3fad5b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6c89495.js",
+    "static/js/2.ea3fad5b.chunk.js",
+    "static/css/main.ead70764.chunk.css",
+    "static/js/main.fca37885.chunk.js"
+  ]
+}
