@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 import '../styles/SearchResults.css';
 
 const SearchResults = ({ image }) => {
+  console.log(image);
   return (
-    <div className="SearchResults">
+    <div className="SearchResults" data-testid="SearchResults">
       <img
         className="image-card"
         src={ image }
-        alt="theMoon"
+        alt={ image }
+        data-testid="image-card"
       />
     </div>
   );

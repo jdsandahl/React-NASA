@@ -1,24 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search renders correctly 1`] = `
+exports[`Search renders correctly against snapshot 1`] = `
 <DocumentFragment>
   <div
     class="Search"
+    data-testid="Search"
   >
     <img
       alt="nasaLogo"
       class="nasa-logo"
+      data-testid="nasa-logo"
       src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
     />
     <form
       class="search-form"
+      data-testid="search-form"
     >
       <input
         class="search-input"
+        data-testid="search-input"
+        placeholder="Search"
         type="text"
       />
       <button
         class="search-btn"
+        data-testid="search-btn"
         type="submit"
       >
         Go!

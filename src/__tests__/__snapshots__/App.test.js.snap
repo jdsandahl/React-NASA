@@ -1,42 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App renders correctly 1`] = `
+exports[`App renders correctly against snapshot 1`] = `
 <DocumentFragment>
   <div
     class="App"
   >
     <div
       class="Search"
+      data-testid="Search"
     >
       <img
         alt="nasaLogo"
         class="nasa-logo"
+        data-testid="nasa-logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
       />
       <form
         class="search-form"
+        data-testid="search-form"
       >
         <input
           class="search-input"
+          data-testid="search-input"
+          placeholder="Search"
           type="text"
         />
         <button
           class="search-btn"
+          data-testid="search-btn"
           type="submit"
         >
           Go!
         </button>
       </form>
     </div>
-    <div
-      class="SearchResults"
-    >
-      <img
-        alt="theMoon"
-        class="image-card"
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-      />
-    </div>
+    <div />
   </div>
 </DocumentFragment>
 `;
