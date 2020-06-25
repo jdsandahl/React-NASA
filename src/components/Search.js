@@ -5,10 +5,13 @@ import getImages from "../requests/getImages.js";
 
 const Search = ({ setSearchResults }) => {
   const [searchValue, setSearchValue] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (event) => {
+    setLoading(true);
     event.preventDefault();
     setSearchResults(await getImages(searchValue));
+    setLoading(false);
   };
 
   return (
@@ -25,6 +28,11 @@ const Search = ({ setSearchResults }) => {
           Go!
         </button>
       </form>
+      {loading && (
+        <div className="search-loader">
+          <div className="loader" />
+        </div>
+      )}
     </div>
   );
 };
