@@ -10,6 +10,9 @@ The following functionalities need to be implemented:
 - A Search page which allows users to search for images by keyword
 - Images must be returned upon a successful search
 
+## App hosted on GitHub pages
+[View Here](https://jdsandahl.github.io/React-NASA/)
+
 ## Sample Screenshots
 Mobile: ![mobile-view](./screenshots/mobile.png)
 Full-Desktop: ![desktop-view](./screenshots/desktop.png)
