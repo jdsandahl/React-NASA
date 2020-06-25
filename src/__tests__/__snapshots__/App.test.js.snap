@@ -5,16 +5,16 @@ exports[`App renders correctly against snapshot 1`] = `
   <div
     class="App"
   >
+    <img
+      alt="nasaLogo"
+      class="nasa-logo"
+      data-testid="nasa-logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
     <div
       class="Search"
       data-testid="Search"
     >
-      <img
-        alt="nasaLogo"
-        class="nasa-logo"
-        data-testid="nasa-logo"
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-      />
       <form
         class="search-form"
         data-testid="search-form"

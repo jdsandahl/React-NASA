@@ -6,12 +6,6 @@ exports[`Search renders correctly against snapshot 1`] = `
     class="Search"
     data-testid="Search"
   >
-    <img
-      alt="nasaLogo"
-      class="nasa-logo"
-      data-testid="nasa-logo"
-      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-    />
     <form
       class="search-form"
       data-testid="search-form"

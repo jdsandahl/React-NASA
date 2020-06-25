@@ -13,12 +13,6 @@ const Search = ({ setSearchResults }) => {
 
   return (
     <div className="Search" data-testid="Search">
-      <img
-        className="nasa-logo"
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
-        alt="nasaLogo"
-        data-testid="nasa-logo"
-      />
       <form className="search-form" onSubmit={handleSubmit} data-testid="search-form">
         <input
           className="search-input"

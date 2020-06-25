@@ -5,12 +5,6 @@
   justify-content: center;
 }
 
-.nasa-logo { 
-  margin: auto;
-  width: 500px;
-  max-height: 300px;
-}
-
 .search-form {
     display: flex;
     flex-direction: row;

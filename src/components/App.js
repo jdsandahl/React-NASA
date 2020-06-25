@@ -8,6 +8,12 @@ function App() {
 
   return (
     <div className="App">
+      <img
+        className="nasa-logo"
+        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+        alt="nasaLogo"
+        data-testid="nasa-logo"
+      />
       <Search setSearchResults={setSearchResults} />
       <div>
         {searchResults && searchResults.length > 0 && ( searchResults.map((element) => <SearchResults key={element} image={element} /> ))}
