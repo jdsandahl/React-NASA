@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import '../styles/SearchResults.css';
 
 const SearchResults = ({ image }) => {
-  console.log(image);
   return (
     <div className="SearchResults" data-testid="SearchResults">
       <img
