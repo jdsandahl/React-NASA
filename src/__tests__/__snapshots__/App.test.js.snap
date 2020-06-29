@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly against snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <img
+      alt="nasaLogo"
+      class="nasa-logo"
+      data-testid="nasa-logo"
+      src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+    />
+    <div
+      class="Search"
+      data-testid="Search"
+    >
+      <form
+        class="search-form"
+        data-testid="search-form"
+      >
+        <input
+          class="search-input"
+          data-testid="search-input"
+          placeholder="Search"
+          type="text"
+        />
+        <button
+          class="search-btn"
+          data-testid="search-btn"
+          type="submit"
+        >
+          Go!
+        </button>
+      </form>
+    </div>
+    <div />
+  </div>
+</DocumentFragment>
+`;
