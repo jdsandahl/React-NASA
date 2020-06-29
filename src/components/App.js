@@ -15,7 +15,7 @@ function App() {
         data-testid="nasa-logo"
       />
       <Search setSearchResults={setSearchResults} />
-      <div>
+      <div className="flex-wrapper">
         {searchResults && searchResults.length > 0 && ( searchResults.map((element) => <SearchResults key={element} image={element} /> ))}
       </div>
     </div>
